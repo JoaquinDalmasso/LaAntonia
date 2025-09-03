@@ -1,6 +1,7 @@
 import MultiLayerParallax from "./components/MultiLayerParallax.jsx";
 import LaCatolica from "./components/CampusUCC.jsx"
 import LaAntonia from "./components/LaAntoniaMision.jsx"
+import Caracteristicas from "./components/Caracteristicas.jsx";
 
 //
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <main>
       <div className="w-full bg-[#e9e2cd]">
       <MultiLayerParallax />
+      <Caracteristicas/>
       <LaCatolica/>
       <LaAntonia/>
         <div className="max-w-lg py-24 mx-auto space-y-4 text-black">
